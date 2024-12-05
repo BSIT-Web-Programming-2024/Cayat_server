@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('Nature.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff; /* Ensure text is visible over the background */
+}
+
+.form-container {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    width: 500px;
+    height: 400px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+input {
+    display: block;
+    font-size: 1em;
+    width: 90%;
+    margin: 10px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 98%;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
